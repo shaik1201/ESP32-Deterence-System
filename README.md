@@ -8,3 +8,6 @@ Main goal for now:
 Future goals:
 - after trcaking the movement, turn on a spinkler to keep the cats away.
 - Use arduino. (currently using an old laptop to run the script in real time).
+
+UPDATE:
+Currently controling the arduino using http request to turn a led on/off.
