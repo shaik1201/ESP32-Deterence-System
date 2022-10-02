@@ -20,12 +20,7 @@ except Exception as e:
 
 
 
-# get the email address and password from env vars
-# set EMAIL_PASS=czwiksvmijykljoy
-# set EMAIL_ADD=shaikiko12@gmail.com
 
-# EMAIL_ADD = os.environ.get('EMAIL_ADD')
-# EMAIL_PASS = os.environ.get('EMAIL_PASS')
 
 EMAIL_ADD = config['smtp']['EMAIL_ADD']
 EMAIL_PASS = config['smtp']['EMAIL_PASS']
