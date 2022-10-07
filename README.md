@@ -10,4 +10,4 @@ Future goals:
 - Use arduino. (currently using an old laptop to run the script in real time).
 
 UPDATE:
-Currently controling the arduino using http request to turn a led on/off.
+Currently controling the arduino using http request to turn a led on/off. (just_cv.py).
