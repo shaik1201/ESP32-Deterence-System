@@ -2,7 +2,7 @@
 from selenium import webdriver
 import time
 
-def func(led_state):
+def func(state):
 
 
     # Create the webdriver object. Here the
@@ -19,5 +19,5 @@ def func(led_state):
     time.sleep(5)
 
     # Obtain button by link text and click.
-    button = driver.find_element("link text", led_state)
+    button = driver.find_element("link text", state)
     button.click()

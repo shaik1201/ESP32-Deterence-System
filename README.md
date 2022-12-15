@@ -8,4 +8,5 @@ Identify and notify when cats enter my yard so i would be able to prevent them f
 - Use arduino/esp32 board. (currently using an old laptop to run the script in real time).
 
 UPDATE:
-Currently controling the arduino using http request to turn a sprinkler on/off. (just_cv.py).
+Currently controling the esp32 using a HTTP request to turn a sprinkler on/off. (just_cv.py).
+About to upload a video to show how it works in real time!

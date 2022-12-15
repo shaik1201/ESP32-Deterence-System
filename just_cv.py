@@ -11,7 +11,7 @@ resized_img1 = cv2.resize(img1,(600,400))
 
 ret2, img2 = vid.read()
 resized_img2 = cv2.resize(img2,(600,400))
-led_state = 'LED OFF'
+state = 'OFF'
 
 old_time = time.time()
 
@@ -37,16 +37,16 @@ while True:
             cv2.putText(resized_img1, "Status: {}".format('Movement'), (10, 20), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 3)
 
             # turn on led for 10 seconds then turn off
-            if led_state == 'LED OFF':
-                led_state = 'LED ON'
+            if state == 'OFF':
+                state = 'ON'
             else:
-                led_state = 'LED OFF'
-            func(led_state)
+                state = 'OFF'
+            func(state)
         
         time.sleep(10)
-        if led_state == 'LED ON':
-            func('LED OFF')
-            led_state = 'LED OFF'
+        if state == 'ON':
+            func('OFF')
+            state = 'OFF'
             break
             
     

@@ -93,7 +93,7 @@ while True:
             oldtime = time.time()
 
 
-        # turn on led
+        # turn on sprinkler
         func()
             
         

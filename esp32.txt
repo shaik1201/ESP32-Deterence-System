@@ -89,8 +89,8 @@ void loop(){
 //            client.print("Click <a href=\"/H\">here</a> to turn the LED on pin 2 on.<br>");
 //            client.print("Click <a href=\"/L\">here</a> to turn the LED on pin 2 off.<br>");
 
-            client.println("<a href=\"/H\"\"><button style=height:200px;width:300px>LED ON</button></a>");
-            client.println("<a href=\"/L\"\"><button style=height:200px;width:300px>LED OFF</button></a>");
+            client.println("<a href=\"/H\"\"><button style=height:200px;width:300px>ON</button></a>");
+            client.println("<a href=\"/L\"\"><button style=height:200px;width:300px>OFF</button></a>");
 
             // The HTTP response ends with another blank line:
             client.println();

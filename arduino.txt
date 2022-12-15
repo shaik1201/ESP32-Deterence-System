@@ -52,8 +52,8 @@ void loop() {
           client.println("<title>WebServer</title>");
           client.println("</head>");
           client.println("<body style=background-color:powderblue>");
-          client.println("<a href=\"/?button1on\"\"><button style=height:200px;width:300px>LED ON</button></a>");
-          client.println("<a href=\"/?button2off\"\"><button style=height:200px;width:300px>LED OFF</button></a>");
+          client.println("<a href=\"/?button1on\"\"><button style=height:200px;width:300px>ON</button></a>");
+          client.println("<a href=\"/?button2off\"\"><button style=height:200px;width:300px>OFF</button></a>");
 
           delay(1);
           client.stop();
