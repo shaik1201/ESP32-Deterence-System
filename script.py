@@ -1,10 +1,6 @@
-import numpy as np
 import cv2
-import requests
 import smtplib
-import os
 from datetime import datetime
-from flask import Flask
 from pymongo import MongoClient
 from pprint import pprint
 import time
